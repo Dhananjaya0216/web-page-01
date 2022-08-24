@@ -1,0 +1,93 @@
+*{
+	margin:0;
+	padding:0;
+	}
+
+.main{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(main.jpeg);
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+}
+
+.userpic {
+	position:absolute;
+	width:320px;
+	height:420px;
+	background-color:#000;
+	color:#fff;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;				 /*box ekak wage hada hanna oni nisa*/
+	padding:70px 30px;
+	
+}
+.userpic img{
+	width:100px;
+	height:auto;
+	border-radius:50%;
+	position:absolute;
+	top:-50px;
+	left: calc(50% - 50px);
+	
+}
+h1{
+	margin:0;
+	padding:0 0 20px;
+	text-align:center;
+	font-size:25px;
+}
+.userpic p{
+	margin:0;
+	padding:0;
+	font-weight: bold;
+	
+}
+
+.userpic input{
+	width:100%;
+	margin-bottom:20px;
+}
+
+.userpic input[type="text"],input[type="password"]{
+	border:none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+	
+	
+}
+.userpic input[type="submit"]{
+	border:none;
+	outline:none;
+	height:40px;
+	background-color:red;
+	color:#fff;
+	font-size:18px;
+	border-radius:20px;
+	
+}
+
+.userpic input[type="submit"]:hover{
+	background-color:#ffc107;
+	color:#000;
+	cursor:pointer;				/*athak wage wenawa cursor eka*/
+}
+.userpic a{
+	text-decoration:none;
+	color:darkgrey;
+	font-size:12px;
+	line-height:20px;
+}
+.userpic a:hover{
+	color:#fff;
+}
+
+	
+	
+	
+
